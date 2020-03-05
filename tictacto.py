@@ -61,20 +61,31 @@ printBoard(theBoard)
 #then, after every turn after the first 5 turns, checkWin function is ran 
 #meaning, function call would  be something like:
 
+#----sequence of functions----
 #computer()
+#printBoard(theBoard)
 #human()
+#printBoard(theBoard)
 #computer()
+#printBoard(theBoard)
 #human()
+#printBoard(theBoard)
 #computer()
+#printBoard(theBoard)
 #checkwin
 #human()
+#printBoard(theBoard)
 #checkwin
 #computer()
+#printBoard(theBoard)
 #checkwin
 #human()
+#printBoard(theBoard)
 #checkwin
 #computer()
+#printBoard(theBoard)
 #checkwin
+#break/end 
 
 #check win fucntion checks all the possible rows and columns  and diagnal
 #ways to win. if the vaules for the keys top-L  top-M  top-R match all match,

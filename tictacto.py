@@ -16,6 +16,7 @@ print("Lets play a game of Tic-Tac-Toe")
 
 picker  = True
 
+
 while(picker):
     print("Would you like to be X's or O's")
     global human 
@@ -35,8 +36,19 @@ print("You have chosen " + human + ". The computer will be " + computer + "...")
 
 time.sleep(2)
 
-print("The board is now cleared. Lets begin!")
+print("The board is now cleared. Lets begin! Moves are top-")
+
+theBoard["top-L"] = human
+
+
 printBoard(theBoard)
+
+def humanMove(move):
+    print("Your turn")
+    theBoard[move] = human
+
+
+humanMove(theBoard)
     
       
 #human is asked for input to be X or O, computer is whatever human didnt
